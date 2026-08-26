@@ -1,0 +1,20 @@
+generated: '2026-08-26'
+method: searched
+source: https://precitaste.com/ (site-wide search for a pricing surface, 2026-08-26)
+plan_count: 0
+currency: null
+plans: []
+note: >-
+  PreciTaste publishes no pricing. https://precitaste.com/pricing/ returns 404 and no
+  pricing, plans or packaging page exists anywhere on the site or in the company's own
+  llms.txt link map. The commercial motion is enterprise contact-us: the site routes
+  buyers to https://precitaste.com/contact/ to book a discovery call, and offers an ROI
+  calculator (https://precitaste.com/roi/) that estimates savings from reduced food waste
+  and labor rather than quoting a price. This is a recorded absence, not an unchecked field.
+evidence:
+- url: https://precitaste.com/pricing/
+  status: 404
+- url: https://precitaste.com/roi/
+  status: 200
+- url: https://precitaste.com/contact/
+  status: 200

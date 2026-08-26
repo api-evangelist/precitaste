@@ -1,8 +1,18 @@
 aid: precitaste
 name: PreciTaste
-description: 'PreciTaste is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'PreciTaste is an AI kitchen management platform for restaurants and foodservice
+  operators. Founded as PreciBake by Ingo and Laura Stork-Wersborg, with offices in New York
+  City, Munich, and India, the company applies demand forecasting and computer vision to
+  kitchen operations: forecasting demand from sales, weather and event signals, telling crews
+  what to prep and cook and how much, planning hourly production, driving predictive inventory
+  ordering, and tracking food levels on the line in real time. Its modules include Do''Cast
+  demand forecasting, Daily Prep Management, Hourly Production Planning, Predictive Ordering,
+  Recipe Viewer, Checklist, Label Printer, Real-Time Food Tracking and Data Analytics, sold
+  into QSR, fast-casual, full-service, c-store and in-store bakery operations and deployed
+  across 5,000+ locations. PreciTaste consumes restaurant point-of-sale data through partner
+  integrations such as Toast rather than publishing a developer API of its own.'
 url: https://raw.githubusercontent.com/api-evangelist/precitaste/refs/heads/main/apis.yml
+image: https://precitaste.com/og-default.jpg
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +22,14 @@ created: '2026-08-26'
 modified: '2026-08-26'
 tags:
 - Company
+- Artificial Intelligence
+- Restaurants
+- Foodservice
+- Demand Forecasting
+- Computer Vision
+- Kitchen Operations
+- Inventory Management
+- Food Waste
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +38,46 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://precitaste.com/
+- type: Blog
+  url: https://precitaste.com/blogs/
+- type: Support
+  url: https://precitaste.com/customer-support/
+- type: PrivacyPolicy
+  url: https://precitaste.com/privacy-policy/
+- type: TermsOfService
+  url: https://precitaste.com/terms-of-use/
+- type: LLMsTxt
+  url: llms/precitaste-llms.txt
+- type: DomainSecurity
+  url: security/precitaste-domain-security.yml
+- type: Plans
+  url: plans/precitaste-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/precitaste-rate-limits.yml
+x-enrichment:
+  date: '2026-08-26'
+  status: minimal
+  artifacts_added: 5
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    PreciTaste sells an AI kitchen-management platform to restaurant operators and consumes
+    point-of-sale data through partner integrations such as Toast rather than publishing an
+    API of its own; precitaste.com/api/ and /developers/ both 404, the api., docs., app.,
+    developer. and portal. subdomains do not resolve in DNS, and the company's own llms.txt
+    maps 30+ canonical URLs without naming a single developer, API, or integration page.
+  evidence:
+  - url: https://precitaste.com/api/
+    status: 404
+  - url: https://precitaste.com/developers/
+    status: 404
+  - url: https://precitaste.com/openapi.json
+    status: 404
+  - url: https://precitaste.com/llms.txt
+    status: 200
+  - url: https://precihub.com/.well-known/agent-card.json
+    status: 404
+  checked: '2026-08-26'

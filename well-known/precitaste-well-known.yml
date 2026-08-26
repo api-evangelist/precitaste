@@ -1,0 +1,82 @@
+generated: '2026-08-26'
+method: probed
+source: live GET probes of /.well-known/* on every PreciTaste host resolvable on 2026-08-26
+note: >-
+  Every /.well-known/ path probed returned 404. precitaste.com is a WordPress-backed
+  marketing site that serves a themed 404 HTML page (33,724 bytes, text/html) for any
+  unmatched path, so none of these responses is a document. No WellKnown or SecurityTxt
+  pointer is emitted: this file records a measured absence, not a served surface.
+  The api., docs., app., developer., portal., status., trust., mcp. and hub. subdomains
+  of precitaste.com do not resolve in DNS at all (NXDOMAIN), so they could not be probed.
+  precihub.com — the name PreciTaste markets its central platform under — resolves to a
+  parked/error host that returns a 833-byte German-language error page for every path.
+hosts:
+- host: precitaste.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: www.precitaste.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: precihub.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null

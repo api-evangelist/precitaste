@@ -1,0 +1,18 @@
+generated: '2026-08-26'
+method: searched
+source: https://precitaste.com/ (site-wide search for a developer/API surface, 2026-08-26)
+limit_count: 0
+rate_limits: []
+headers: []
+note: >-
+  No rate limits are documented because PreciTaste publishes no public API. There is no
+  developer portal, API reference, or machine-readable contract on any resolvable
+  PreciTaste host (see x-coverage in apis.yml). PreciTaste is an API consumer rather than
+  an API producer: it ingests restaurant point-of-sale data through partner integrations
+  such as Toast, where the published API and its limits belong to Toast. limit_count 0 is
+  a measured zero, not an unchecked field.
+evidence:
+- url: https://precitaste.com/api/
+  status: 404
+- url: https://precitaste.com/developers/
+  status: 404

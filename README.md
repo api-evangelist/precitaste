@@ -64,5 +64,8 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-PreciTaste is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+PreciTaste is an AI kitchen management platform for restaurants and foodservice operators. Founded as PreciBake by Ingo and Laura Stork-Wersborg, with offices in New York City, Munich, and India, it forecasts demand from sales, weather and event signals and tells kitchen crews what to prep and cook, when, and how much — across QSR, fast-casual, full-service, c-store and in-store bakery operations at 5,000+ locations.
+
+PreciTaste publishes no public developer API. It is an API *consumer*: it ingests restaurant point-of-sale data through partner integrations such as Toast. This profile therefore records a measured absence rather than a contract — see `x-coverage` in `apis.yml`.
+
+- https://precitaste.com/
