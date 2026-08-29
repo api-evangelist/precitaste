@@ -12,6 +12,17 @@ description: 'PreciTaste is an AI kitchen management platform for restaurants an
   across 5,000+ locations. PreciTaste consumes restaurant point-of-sale data through partner
   integrations such as Toast rather than publishing a developer API of its own.'
 url: https://raw.githubusercontent.com/api-evangelist/precitaste/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://precitaste.com/og-default.jpg
 x-type: company
 x-source: harvest:secondary-market
