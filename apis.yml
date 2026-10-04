@@ -50,9 +50,9 @@ tags:
 - Restaurant
 - Food Service
 - Demand Forecasting
-- Computer-Vision
+- Computer Vision
 - Kitchen Operations
-- Inventory Management
+- Inventory
 - Food Waste
 tags_raw:
 - Company
@@ -64,6 +64,7 @@ tags_raw:
 - Kitchen Operations
 - Inventory Management
 - Food Waste
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
