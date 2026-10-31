@@ -64,8 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-PreciTaste is an AI kitchen management platform for restaurants and foodservice operators. Founded as PreciBake by Ingo and Laura Stork-Wersborg, with offices in New York City, Munich, and India, it forecasts demand from sales, weather and event signals and tells kitchen crews what to prep and cook, when, and how much — across QSR, fast-casual, full-service, c-store and in-store bakery operations at 5,000+ locations.
+PreciTaste is an AI kitchen management platform for restaurants and foodservice operators. Founded as PreciBake by Ingo and Laura Stork-Wersborg, with offices in New York City, Munich, and India, the company applies demand forecasting and computer vision to kitchen operations: forecasting demand from sales, weather and event signals, telling crews what to prep and cook and how much, planning hourly production, driving predictive inventory ordering, and tracking food levels on the line in real time. Its modules include Do'Cast demand forecasting, Daily Prep Management, Hourly Production Planning, Predictive Ordering, Recipe Viewer, Checklist, Label Printer, Real-Time Food Tracking and Data Analytics, sold into QSR, fast-casual, full-service, c-store and in-store bakery operations and deployed across 5,000+ locations. PreciTaste consumes restaurant point-of-sale data through partner integrations such as Toast rather than publishing a developer API of its own.
 
-PreciTaste publishes no public developer API. It is an API *consumer*: it ingests restaurant point-of-sale data through partner integrations such as Toast. This profile therefore records a measured absence rather than a contract — see `x-coverage` in `apis.yml`.
+**Areas:** Company · Artificial Intelligence · Restaurant · Food Service · Demand Forecasting · Computer Vision · Kitchen Operations · Inventory · Food Waste
 
-- https://precitaste.com/
+## PreciTaste on APIs.io
+
+Everything profiled for PreciTaste is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/precitaste/](https://apis.io/providers/precitaste/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Precitaste Domain Security](https://apis.io/security/precitaste/precitaste-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Precitaste Plans Pricing](https://apis.io/plans/precitaste/precitaste-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Precitaste Rate Limits](https://apis.io/rate-limits/precitaste/precitaste-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://precitaste.com/)
+- [Support](https://precitaste.com/customer-support/)
+- [Blog](https://precitaste.com/blogs/)
+- [Terms of service](https://precitaste.com/terms-of-use/)
+- [Privacy policy](https://precitaste.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 10.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/precitaste/](https://apis.io/providers/precitaste/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PreciTaste: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/precitaste/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
